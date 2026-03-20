@@ -1,8 +1,40 @@
-# React + Vite
+Contact Management App
+A simple React-based contact management application to add, edit, view, delete, and search contacts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+1. Add new contacts with name, phone, and email
+2. Edit existing contacts
+3. Delete contacts
+4. View contact details in a modal
+5. Search contacts by name, phone, or email
+6. Data fetched from a JSON API
 
-Currently, two official plugins are available:
+Tech Stack
+React (Functional Components, Hooks)
+JavaScript
+HTML / CSS
+Fetch API for data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+Clone the repository:
+git clone url
+cd your-repo
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm start
+
+The app will run at http://localhost:3000.
+
+Usage
+Click + to add a new contact.
+Click ✏️ to edit a contact.
+Click 👁 to view contact details.
+Click 🗑 to delete a contact.
+Use the search bar to filter contacts by name, phone, or email.
+
+Notes
+The node_modules folder is ignored using .gitignore.
+Make sure to run npm install after cloning to install dependencies.
